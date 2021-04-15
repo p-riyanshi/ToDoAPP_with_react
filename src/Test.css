@@ -1,0 +1,82 @@
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+    font-family: "Architects Daughter", cursive;
+}
+
+.main{
+    min-height: 100vh;
+    background: linear-gradient(to right top,#65dfc9,#6cdbeb);
+    display:flex;
+    align-items: center;
+    justify-content:center;
+}
+
+.container{
+    min-height:80vh;
+    background-color: white;
+    width:50%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    background: linear-gradient(to right bottom,rgba(255,255,255,0.6),rgba(255,255,255,0.2));
+    border-radius: 0.5rem;
+    text-align: center;
+}
+
+.header h1{
+    padding: 10px 5px;
+    color:#426696;
+    font-weight:600;
+    opacity:0.8;
+    font-size:2.5rem;
+}
+
+.form-content input{
+    padding: 10px 10px;
+    margin-right:10px;
+    margin-bottom:15px;
+    background: linear-gradient(to left bottom,rgba(255,255,255,0.5),rgba(255,255,255,0.2));
+    border: none;
+}
+
+.form-content button{
+    background: rgba(255,255,255,0);
+    color:#426696;
+    padding-top:18px;
+    border:none;
+    transform: scale(1.8);
+    margin-left: 1rem;
+}
+
+.list{
+    display: flex; 
+    align-items:left;
+    justify-content:space-between;
+    background: rgba(66,102,150,0.1);
+    margin-bottom:0.5rem;
+    padding: 0.3rem;
+    padding-left: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+.item{
+    
+    color:#426696;
+    font-weight:600;
+    margin-right: 2rem;
+    margin-left:0rem;
+}
+
+.todo-list{
+    min-width: 60vh;
+    padding-right: 2rem;
+}
+
+.list .btn{
+    border:none;
+    background: rgba(255,255,255,0);
+        color:#426696;
+
+}
